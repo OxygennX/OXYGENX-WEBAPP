@@ -1,0 +1,68 @@
+.first{
+    width: full;
+    height: auto;
+   
+}
+
+.first .content{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+
+}
+
+.first .content h1{
+    font-size: 2rem;
+    padding: 0.6rem 0 1.5rem;
+    text-align: center;
+
+}
+
+/* hover */
+
+/* .content h1 snap{
+    
+    transition: 1s;
+
+}
+.content h1 :hover {
+    
+    margin-right: 10px;
+
+}
+
+
+
+.content h1 :hover  {
+    
+    margin-left: 15px;
+    color: white;
+
+    text-shadow: 0 0 10px lightgreen,
+                 0 0 20px lightgreen,
+                 0 0 40px lightgreen,
+                 0 0 80px lightgreen;
+                 /* 0 0 120px lightgreen; */
+
+ 
+*/
+
+/* hover end */
+
+.content .btn{
+    margin : 1rem 0.2rem;
+}
+
+.content .live :hover {
+    /* color: lightgreen; */
+    color: black;
+
+    text-shadow: 0 0 10px lightgreen,
+                 0 0 20px lightgreen,
+                 0 0 40px lightgreen,
+                 0 0 80px lightgreen;
+                 /* 0 0 120px lightgreen; */
+    transition: 1s;
+}
